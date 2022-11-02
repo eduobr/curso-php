@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>miorden</title>
+		<meta name="author" content="Eduardo" />
+		<!-- Date: 2013-02-05 -->
+	</head>
+	<body>
+		<form action="procesarorden2.php" method="post">
+			<table border=1px>
+				<tr>
+					<td width="150px"><font face="Arial, Helvetica, sans-serif">Libro</font></td>
+					<td width="15px"><font face="Arial, Helvetica, san-serif">Cantidad</font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial, Helvetica, sans-serif">ActionScript</font></td>
+					<td align="center"><font face="Arial, Helvetica, sans-serif">
+						<input type="text" name="actionqty" size=3 maxlength=3>
+					</font></td>
+				</tr>	
+				<tr>
+					<td><font face="Arial, Helvetica, sans-serif">Photoshop</font></td>
+					<td align="center"><font face="Arial, Helvetica, sans-serif">
+						<input type="text" name="photoqty" size=3 maxlength=3>
+					</font></td>
+				</tr>
+				<tr>
+					<td><font face="Arial, Helvetica, sans-serif">Flash MX</font></td>
+					<td align="center"><font face="Arial, Helvetica, sans-serif">
+						<input type="text" name="flashqty" size=3 maxlength=3>
+					</font></td>
+				</tr>
+				<tr>
+					<td>Como conocio nuestra libreria</td>
+					<td>
+						<select name="find">
+							<option value="a">Soy un cliente habitual</option>
+							<option value="b">Anuncios en television</option>
+							<option value="c">Informaciones en Internet</option>
+							<option value="d">Me lo aconsejo un amigo</option>		
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Direccdion de envio</td>
+					<td>
+						<input type="text" name="direcc" size=40 maxlength=40></input>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align=center><input type="submit" value="enviar pedido" /></td>
+				</tr>				
+			</table>			
+		</form>
+
+	</body>
+</html>
+
